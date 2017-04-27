@@ -1,0 +1,31 @@
+{
+  "name": "linter-sqf",
+  "main": "./lib/init.js",
+  "version": "0.0.0",
+  "keywords": [
+    "sqf",
+    "arma",
+    "lint",
+    "linter"
+  ],
+  "description": "Linter for sqf (arma) language.",
+  "repository": "https://github.com/LordGolias/linter-sqf",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "package-deps": [
+    "linter"
+  ],
+  "dependencies": {
+    "atom-linter": "^10.0.0",
+    "atom-package-deps": "^4.0.1"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  }
+}
