@@ -16,4 +16,4 @@ See also [language-arma-atom](https://atom.io/packages/language-arma-atom).
 
 3. Install this package.
 4. Go to the settings of this package, and put the path above into the `Executable Path` setting.
-5. create a new file `test.sqf` in atom, and fill it with `bla]` (i.e. wrong SQF code). You should see an error message.
+5. Create a new file `test.sqf` in atom, and fill it with `bla]` (i.e. wrong SQF code). You should see an error message.
